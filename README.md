@@ -9,7 +9,6 @@
 
 프로젝트를 실제로 사용해보고 싶다면 위 링크를 방문하세요.
 <br />
-
 <div align="center">
   <img src="./public/images/demo.gif" alt="Weather App Demo" width="600px" />
 </div>
@@ -32,17 +31,14 @@ npm install
 ### 1-3. 앱을 실행합니다.  
 npm start  
 ### 1-4. http://localhost:3000에서 앱을 확인  
-
+<br />
 
 ## 사용한 기술 및 라이브러리  
 #### React: UI 구성 및 상태 관리  
 #### OpenWeatherMap API: 날씨 정보 제공  
 #### react-spinners: 로딩 스피너 컴포넌트  
 #### CSS: 스타일링  
-
-## :rainbow: 사용한 컬러 팔레트  
-#### 메인 색상: #3498db  
-#### 부가 색상: #2ecc71, #f39c12, #e74c3c  
+<br />
 
 ## :earth_africa: 사용 방법  
 앱을 실행하면 현재 위치의 날씨 정보가 자동으로 표시됩니다.  
