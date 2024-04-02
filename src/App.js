@@ -41,25 +41,25 @@ function App() {
     
         switch (weatherDescription) {
           case 'clear sky':
-            return `${process.env.PUBLIC_URL}/images/background_clear_sky.png`;
+            return `./images/background_clear_sky.png`;
           case 'few clouds':
-            return `${process.env.PUBLIC_URL}/images/background_few_clouds.png`;
+            return `./images/background_few_clouds.png`;
           case 'scattered clouds':
-            return `${process.env.PUBLIC_URL}/images/background_scattered_clouds.png`;
+            return `./images/background_scattered_clouds.png`;
           case 'shower rain':
-            return `${process.env.PUBLIC_URL}/images/background_shower_rain.png`;
+            return `./images/background_shower_rain.png`;
           case 'thunderstorm':
-            return `${process.env.PUBLIC_URL}/images/background_background_thunderstorm.png`;
+            return `./images/background_background_thunderstorm.png`;
           case 'light snow':
-            return `${process.env.PUBLIC_URL}/images/background_snow.png`;
+            return `./images/background_snow.png`;
           // 다른 날씨 상태에 대한 처리 추가
           default:
             console.log('Default image selected');
-            console.log('Default image path:', `${process.env.PUBLIC_URL}/images/background.png`);
-            return `${process.env.PUBLIC_URL}/images/background.png`;
+            console.log('Default image path:', `./images/background.png`);
+            return `./images/background.png`;
         }
       } else {
-        return `${process.env.PUBLIC_URL}/images/background.png`;
+        return `./images/background.png`;
       }
     };
       
